@@ -25,7 +25,7 @@ if not GOOGLE_API_KEY or not GROQ_API_KEY:
     GROQ_API_KEY = "placeholder"
 
 gemini_llm = ChatGoogleGenerativeAI(
-    model="gemini-1.5-flash",
+    model="gemini-3.5-flash",
     google_api_key=GOOGLE_API_KEY
 )
 
